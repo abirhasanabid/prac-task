@@ -1,7 +1,7 @@
-const score = 50;
+const score = 100;
 
 if (score >= 80 && score <= 100) {
-    console.log("A+")
+    console.log("A+");
 }
 else if (score >= 70 && score <= 79) {
     console.log("A");
@@ -15,8 +15,17 @@ else if (score >= 50 && score <= 59) {
 else if (score >= 40 && score <= 49) {
     console.log("C");
 }
-else if (score >= 33 && score<=39) {
+else if (score >= 33 && score <= 39) {
     console.log("D");
-} else {
-    console.log("fail---better luck next time");
+}
+else {
+    if (score < 33) {
+        console.log("fail---better luck next time");
+
+    }
+    else {
+        if (score > 100) {
+            console.log("invalid number");
+        }
+    }
 }
