@@ -2,17 +2,21 @@
 */
 
 
-const age = 59;
+const age = 0;
 
-if(age<12){
+if (age < 12 && age > 0) {
     console.log("ticket price = 5tk");
 }
-else if(age<18){
+else if (age < 18 && age > 0) {
     console.log("ticket price = 10tk");
 }
-else if(age<60){
+else if (age < 60 && age > 0) {
     console.log("ticket price = 20tk");
 }
+else
+    if (age > 60 && age > 0) {
+        console.log("ticket price = 15tk");
+    }
 else{
-    console.log("ticket price = 15tk");
+    console.log("invalid age")
 }

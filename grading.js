@@ -1,4 +1,4 @@
-const score = 100;
+const score = 101;
 
 if (score >= 80 && score <= 100) {
     console.log("A+");
@@ -23,9 +23,7 @@ else {
         console.log("fail---better luck next time");
 
     }
-    else {
-        if (score > 100) {
-            console.log("invalid number");
-        }
+    if (score > 100) {
+        console.log("invalid number");
     }
 }
