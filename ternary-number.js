@@ -22,3 +22,10 @@ else {
     result = num1 + num2
 }
 console.log(result);
+
+
+// ternary operator
+
+
+result = num1 > num2 ? num1 * num1 : num1 + num2;
+console.log(result);
